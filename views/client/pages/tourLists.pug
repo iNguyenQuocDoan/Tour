@@ -6,7 +6,6 @@ block main
   
   h2 Available Tours
   ul
-    li Tour du lịch Hà Nội - Hạ Long
-    li Tour du lịch Sài Gòn - Vũng Tàu
-    li Tour du lịch Đà Nẵng - Hội An
-    li Tour du lịch Nha Trang
+    each item in tourList
+      li #{item.name} - #{item.vehicle}
+      
